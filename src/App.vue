@@ -2,6 +2,10 @@
   <div id="app">
     <Header />
     <img src="./assets/logo.png" alt="Vue logo">
+     
+    <Section />
+    <img src="https://www.venetoformazione.it/wp-content/webp-express/webp-images/uploads/2020/11/ottimizzare-immagini-display-retina.jpg.webp" alt="">
+
    
     
   </div>
@@ -9,12 +13,14 @@
 
 <script>
 import Header from '@/components/Header.vue';
+import Section from '@/components/Section.vue';
 
 
 export default {
   name: 'App',
   components: {
     Header,
+    Section,
   }
 }
 </script>
